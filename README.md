@@ -58,13 +58,12 @@ This should result in a file named sh300hd_<todays date> in the bin folder. This
 * Connect the USB cable between the computer and meter while the meter is turned off. 
 * Turn the meter on, the computer should detect it as a new disk drive. 
 * Copy the file from the computer to the new disk
-* Wait some seconds, then unmount (safe removal) the drive on your computer
+* Wait some seconds, then unmount (safe removal) the drive from your computer
 * Disconnect the USB cable
 * Turn off the satellite meter
 * Turn the meter back on, the file should now be loaded
 
-**Note: For some reason the method sometimes fails on my meter on Ubuntu Linux, and the new file is not loaded even if everything goes according to plan. 
-Often it seem help to try to unplug the USB after un-mounting the drive, re-insetting the cable and transferring the file once more before turning the meter off and on. **
+**Note: For some reason the method sometimes fails on my meter on Ubuntu Linux, and the new file is not loaded even if everything goes according to plan. Often it seem help to try to unplug the USB after un-mounting the drive, re-insetting the cable and transferring the file once more before turning the meter off and on.**
 
 
 #### For devices with Serial interface:
