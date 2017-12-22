@@ -32,7 +32,7 @@ e.g.
 
 ```
 
-The should result in a file named sh300hd_<todays date> in the bin folder. This file can now be transferred to the meter.
+This should result in a file named sh300hd_&lt;todays date&gt; in the bin folder. This file can now be transferred to the meter.
 
 
 ### For .xml files, place them in a folder and run the command:
@@ -46,7 +46,7 @@ e.g.
 
 ```
 
-This should result in a file named sh300hd_<todays date> in the bin folder. This file can now be transferred to the meter.
+This should result in a file named sh300hd_&lt;todays date&gt; in the bin folder. This file can now be transferred to the meter.
 
 **Note: Some meters (SH1x0HD) will have very limited space for transponders (max 255), and the software will fail to generate files if there are too many**
 
