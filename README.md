@@ -4,7 +4,7 @@ Some tools to read and write transponder-lists for Sathero SAT/DVB signal meters
 
 ## Motivation
 
-To update transponder-lists for these satellite meters, only a Windows tool is provided by the manufacturer. This tool converts Excel files to their binary format, and did not wan't to function in my case, neither in Windows10 nor Linux(wine).
+To update transponder-lists for these satellite meters, only a Windows tool is provided by the manufacturer. That tool converts Excel files to their binary format, and did not wan't to function in my case, neither in Windows10 nor Linux(wine).
 
 The file-format is mostly deciphered and a generator implemented in Python. Due to the lack of documentation of the format problems might occur, however it seem to work as expected.
 
@@ -22,7 +22,7 @@ Both .ini and .xml is supported.
 
 ### For .ini files, place them in a folder and run the command:
 
-./ini2bin.py <version of meter> <folder-name with ini files>
+./ini2bin.py &lt;version of meter&gt; &lt;folder-name with ini files&gt;
 
 e.g.
 
@@ -37,7 +37,7 @@ The should result in a file named sh300hd_<todays date> in the bin folder. This 
 
 ### For .xml files, place them in a folder and run the command:
 
-./xml2bin.py <version of meter> <xml-file>
+./xml2bin.py &lt;version of meter&gt; &lt;xml-file&gt;
 
 e.g.
 
@@ -48,7 +48,7 @@ e.g.
 
 This should result in a file named sh300hd_<todays date> in the bin folder. This file can now be transferred to the meter.
 
-** Note: Some meters (SH1x0HD) will have very limited space for transponders (max 255), and the software will fail to generate files if there are too many**
+**Note: Some meters (SH1x0HD) will have very limited space for transponders (max 255), and the software will fail to generate files if there are too many**
 
 
 ### Transferring file to the Satellite meter
@@ -63,7 +63,7 @@ This should result in a file named sh300hd_<todays date> in the bin folder. This
 * Turn off the satellite meter
 * Turn the meter back on, the file should now be loaded
 
-** Note: For some reason the method sometimes fails on my meter on Ubuntu Linux, and the new file is not loaded even if everything goes according to plan. 
+**Note: For some reason the method sometimes fails on my meter on Ubuntu Linux, and the new file is not loaded even if everything goes according to plan. 
 Often it seem help to try to unplug the USB after un-mounting the drive, re-insetting the cable and transferring the file once more before turning the meter off and on. **
 
 
